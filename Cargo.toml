@@ -1,0 +1,21 @@
+[package]
+name = "archeolex"
+version = "0.1.0"
+authors = ["Kaerell"]
+
+[dependencies]
+chrono = "0.4"
+chrono-tz = "0.4"
+curl= "0.4.8"
+couchdb = "0.6.0"
+failure = "0.1.1"
+# libarchive = "0.1.1"
+libarchive = { git = 'https://github.com/Kaerell/libarchive-rust' }
+ftp = "2.2.1"
+rustc-serialize = "0.3.16"
+# xmlJSON = "0.2.0"
+# flate2 = "0.2"
+reqwest = "0.8.2"
+treexml = "0.3.0"
+node2object = "0.1.0"
+serde_json = "0.9"
